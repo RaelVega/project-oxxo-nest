@@ -71,7 +71,6 @@ export class ProductsService {
     return productToUpdate;
   }
 
-
   remove(id: string) {
     this.findOne(id)
     this.productRepository.delete({
